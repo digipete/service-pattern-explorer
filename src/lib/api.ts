@@ -1,6 +1,6 @@
 import type { ResultMode, ResultLimit } from "@/config/taxonomy";
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://govreposcrape-api-1060386346356.us-central1.run.app";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "/api-proxy";
 
 export interface SearchParams {
   query: string;
